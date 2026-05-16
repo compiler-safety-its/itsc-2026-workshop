@@ -116,6 +116,33 @@ article:first-of-type {
   font-style: italic;
 }
 
+.headshot {
+  float: right;
+  width: 120px;
+  height: auto;
+  margin: 0.2rem 0 0.6rem 1.2rem;
+  border-radius: 2px;
+}
+
+.org-logo {
+  display: block;
+  max-height: 36px;
+  width: auto;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.8rem;
+}
+
+article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 ol li {
   margin: 0.6rem 0;
 }
@@ -149,5 +176,11 @@ footer {
     display: block;
     padding-top: 0.2rem;
     padding-bottom: 0.8rem;
+  }
+  .headshot {
+    float: none;
+    display: block;
+    width: 100px;
+    margin: 0 0 0.8rem 0;
   }
 }

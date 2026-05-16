@@ -24,7 +24,7 @@
 <section id="about">
   <h2>About this workshop</h2>
   <p>Most ITSC discussions are more about algorithms, controllers, and protocols than about the compilation, qualification, and deployment steps those discussions ultimately depend on. This workshop puts on the table what those works rely on: qualified compilers, independent verifiers, and the integrators who land that trust chain in production.</p>
-  <p>The half-day program follows the trust chain in order. An independent verifier (Solid Sands) frames toolchain qualification; a qualified-compiler vendor (HighTec) shows what a multi-architecture safety-qualified C/C++/Rust compiler looks like in practice; an autonomous-transit integrator (2getthere) traces how compiler-anchored trust is inherited under ASPICE-governed development and ISO 26262 system-level argument. A 20-minute moderated research panel closes by drawing the three perspectives together.</p>
+  <p>The half-day program follows the trust chain in order. An independent verifier (Solid Sands) frames toolchain qualification; a qualified-compiler vendor (HighTec) shows what a multi-architecture safety-qualified C/C++/Rust compiler looks like in practice; an autonomous-transit integrator (2getthere) traces how compiler-anchored trust is inherited under ISO 26262, ASPICE, and SOTIF in an L4 autonomous transportation system. A 20-minute moderated research panel closes by drawing the three perspectives together.</p>
 </section>
 
 <section id="schedule">
@@ -34,7 +34,7 @@
     <tr><th>00:15–00:50</th><td><strong>Verify</strong> — Sjoerd van der Zwaan (Solid Sands)<br><em>From Code to Confidence: Toolchain Qualification in ITS</em></td></tr>
     <tr><th>00:50–01:25</th><td><strong>Compile</strong> — Mario Cupelli (HighTec)<br><em>Safety Qualified Multi-Architecture Rust and C/C++ Compiler</em></td></tr>
     <tr><th>01:25–01:35</th><td>Break</td></tr>
-    <tr><th>01:35–02:10</th><td><strong>Deploy</strong> — Xiao Liu (2getthere)<br><em>Bringing Process into Product: ISO 26262 Qualification of a Collision Avoidance System with ASPICE-Governed Software Development</em></td></tr>
+    <tr><th>01:35–02:10</th><td><strong>Deploy</strong> — Yang Xiao (2getthere)<br><em>Bringing Standards into Product: ISO 26262 + ASPICE + SOTIF in an L4 Autonomous Transportation System (ATS)</em></td></tr>
     <tr><th>02:10–02:30</th><td>Closing research panel — moderated, all speakers</td></tr>
   </table>
 </section>
@@ -45,19 +45,26 @@
   <article>
     <h3>Sjoerd van der Zwaan — Solid Sands B.V.</h3>
     <p class="talk-title"><em>From Code to Confidence: Toolchain Qualification in ITS</em></p>
-    <p class="placeholder">Bio and abstract pending; final by 2026-05-15.</p>
+    <p class="placeholder">Bio and abstract pending.</p>
   </article>
 
   <article>
     <h3>Mario Cupelli — HighTec EDV-Systeme GmbH</h3>
     <p class="talk-title"><em>Safety Qualified Multi-Architecture Rust and C/C++ Compiler</em></p>
-    <p class="placeholder">Bio and abstract pending; final by 2026-05-15.</p>
+    <p class="placeholder">Bio and abstract pending.</p>
   </article>
 
   <article>
-    <h3>Xiao Liu — 2getthere</h3>
-    <p class="talk-title"><em>Bringing Process into Product: ISO 26262 Qualification of a Collision Avoidance System with ASPICE-Governed Software Development</em></p>
-    <p class="placeholder">Bio and abstract pending; final by 2026-05-15.</p>
+    <img src="assets/yang-xiao.jpeg" alt="Yang Xiao" class="headshot">
+    <h3>Yang Xiao — 2getthere</h3>
+    <img src="assets/2getthere-logo.png" alt="2getthere" class="org-logo">
+    <p class="talk-title"><em>Bringing Standards into Product: ISO 26262 + ASPICE + SOTIF in an L4 Autonomous Transportation System (ATS)</em></p>
+    <p>Deploying safety-compliant autonomous vehicles in the real world remains a major challenge for intelligent transportation systems. 2getthere's Group Rapid Transit (GRT) system is a fully autonomous, high-capacity transport platform. In developing its collision-avoidance software, three complementary frameworks were applied in combination.</p>
+    <p>ISO 26262 provided the product-safety backbone: identifying hazardous scenarios, determining the required ASIL allocation and the corresponding development rigour per safety goal, translating abstract safety goals into concrete functional and technical safety requirements together with their architectural realisation, and consolidating the resulting evidence into a structured safety case that supports release of the vehicle.</p>
+    <p>ASPICE supplied the process-capability skeleton for software development: a lifecycle structure with defined work products, bidirectional traceability, and supporting processes. It was applied in particular to the perception software stack, so that the technical quality demands of ISO 26262-6 are met without re-inventing the development framework.</p>
+    <p>ISO 21448 (SOTIF) addressed the residual risk that ISO 26262 cannot reach: the absence of unreasonable risk arising from the intended functionality of the system or from its reasonably foreseeable misuse had to be demonstrated throughout development, and unknown hazardous scenarios encountered in the field had to be detected and mitigated rapidly to keep the function free from unreasonable risk in operation.</p>
+    <p>This presentation shares practical lessons learned from qualifying a transit system under the combined ISO 26262, ASPICE, and SOTIF framework, and offers an end-user perspective on translating safety standards and structured development processes into an operational, safety-qualified product.</p>
+    <p class="bio">Dr. Yang Xiao is the product owner for autonomous driving (AD) perception software at 2getthere, where she focuses on the multimodal sensor calibration solution and the collision avoidance solution for Level 4 autonomous Group and Personal Rapid Transit systems. Previously, as an R&amp;D software developer, she delivered ASPICE-compliant, ISO 26262-aligned software for L4 AD projects. She holds a Ph.D. from the University of Birmingham, specialising in high-resolution automotive imaging radar for AD applications, with publications in international journals and conference proceedings. Her work bridges automotive perception research and production-grade safety engineering for autonomous mobility.</p>
   </article>
 </section>
 
