@@ -5,17 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Compiler Safety and Verification for ITS — IEEE ITSC 2026 Workshop</title>
 <meta name="description" content="Half-day workshop at IEEE ITSC 2026, Naples, 15 September 2026. Compiler Safety and Verification for Intelligent Transportation Systems: From C/C++ to Rust.">
-<!-- noindex during preview window: remove this line before 5/19 launch -->
-<meta name="robots" content="noindex">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- under-construction notice: remove this block before 5/19 launch -->
-<div class="construction">
-  <strong>Under construction.</strong> Speaker materials are being assembled with our partners; the final site goes live alongside the ITSC program-package submission on 19&nbsp;May&nbsp;2026.
-</div>
-<!-- /under-construction -->
 
 <header>
   <p class="venue">IEEE ITSC 2026 · Half-Day Workshop · Naples, Italy · 15 September 2026</p>
@@ -42,7 +34,7 @@
     <tr><th>00:15–00:50</th><td><strong>Verify</strong> — Sjoerd van der Zwaan (Solid Sands)<br><em>From Code to Confidence: Toolchain Qualification in ITS</em></td></tr>
     <tr><th>00:50–01:25</th><td><strong>Compile</strong> — Mario Cupelli (HighTec)<br><em>Safety Qualified Multi-Architecture Rust and C/C++ Compiler</em></td></tr>
     <tr><th>01:25–01:35</th><td>Break</td></tr>
-    <tr><th>01:35–02:10</th><td><strong>Deploy</strong> — Yang Xiao (2getthere)<br><em>Bringing Standards into Product: ISO 26262 + ASPICE + SOTIF in an L4 Autonomous Transportation System (ATS)</em></td></tr>
+    <tr><th>01:35–02:10</th><td><strong>Deploy</strong> — Dr. Yang Xiao (2getthere)<br><em>Bringing Standards into Product: ISO 26262 + ASPICE + SOTIF in an L4 Autonomous Transportation System (ATS)</em></td></tr>
     <tr><th>02:10–02:30</th><td>Closing research panel — moderated, all speakers</td></tr>
   </table>
 </section>
@@ -51,9 +43,13 @@
   <h2>Speakers</h2>
 
   <article>
+    <img src="assets/sjoerd-vdz.jpg" alt="Sjoerd van der Zwaan" class="headshot">
     <h3>Sjoerd van der Zwaan — Solid Sands B.V.</h3>
-    <p class="talk-title"><em>From Code to Confidence: Toolchain Qualification in ITS</em></p>
-    <p class="placeholder">Bio and abstract pending.</p>
+    <img src="assets/solidsands-logo.png" alt="Solid Sands" class="org-logo">
+    <p class="talk-title"><em>From Code to Confidence: Toolchain Qualification in Intelligent Transportation Systems</em></p>
+    <p>Intelligent Transportation Systems (ITS) increasingly rely on sophisticated C and C++ software to manage complex, real-time safety functions. While safety standards like ISO 26262 require rigorous verification of application code, the underlying toolchain &mdash; specifically compilers and runtime libraries &mdash; often receives less scrutiny. Because these tools translate high-level source code into executable behaviour, defects within them can introduce critical faults even when the source code is perfectly correct. Furthermore, the traditional approach of one-time qualification is no longer sufficient in modern environments where toolchains evolve through frequent updates, security patches, and optimizations.</p>
+    <p>To address this, we introduce continuous toolchain qualification as a systematic method for maintaining trust throughout the ITS lifecycle. This approach integrates automated verification directly into CI/CD pipelines, enabling revalidation whenever toolchains or build configurations change. This presentation details the practical implementation of such a framework, including the structure of compiler test suites, strategies for validating complex optimization passes, and techniques for scaling execution across heterogeneous hardware targets. We also discuss the role of change impact analysis and regression detection in maintaining qualification status. By establishing a reusable foundation for continuous verification, organizations can generate auditable evidence, reduce late-stage risks, and ensure sustained compliance with evolving regulatory expectations for safety-critical systems.</p>
+    <p class="bio">Sjoerd van der Zwaan is a leading expert in autonomous systems with over a decade of experience in Intelligent Transport Systems (ITS). As Chief Product Officer at Solid Sands, he directs product strategy for safety-critical components, specializing in compiler validation and toolchain qualification for embedded systems. His expertise in robotics, AI, and computer vision ensures that development processes meet rigorous safety standards. Previously, as CTO at 2Getthere, Sjoerd led the innovation of autonomous transit solutions. With a background in Electrical and Computer Engineering, he is dedicated to shaping the future of mobility. By bridging cutting-edge technology with reliable verification, Sjoerd advances smart, safe transportation solutions globally.</p>
   </article>
 
   <article>
@@ -63,8 +59,8 @@
   </article>
 
   <article>
-    <img src="assets/yang-xiao.jpeg" alt="Yang Xiao" class="headshot">
-    <h3>Yang Xiao — 2getthere</h3>
+    <img src="assets/yang-xiao.jpeg" alt="Dr. Yang Xiao" class="headshot">
+    <h3>Dr. Yang Xiao — 2getthere</h3>
     <img src="assets/2getthere-logo.png" alt="2getthere" class="org-logo">
     <p class="talk-title"><em>Bringing Standards into Product: ISO 26262 + ASPICE + SOTIF in an L4 Autonomous Transportation System (ATS)</em></p>
     <p>Deploying safety-compliant autonomous vehicles in the real world remains a major challenge for intelligent transportation systems. 2getthere's Group Rapid Transit (GRT) system is a fully autonomous, high-capacity transport platform. In developing its collision-avoidance software, three complementary frameworks were applied in combination.</p>
