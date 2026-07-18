@@ -10,13 +10,26 @@ Companion site for the half-day workshop at IEEE ITSC 2026 (Naples, 2026-09-15).
 
 ## Editing
 
-Org members with `write` permission can edit `index.html` directly through the GitHub web editor. KL is the source of truth for substantive content edits before the May 19 soft-launch.
+Org members with `write` permission can edit `index.html` directly through the GitHub web editor. KL is the source of truth for substantive content edits (site is live since 2026-05-19; edits now land directly on the published page).
 
-## Status
+## Status (updated 2026-07-19)
 
-- Repository created 2026-05-06; private until 2026-05-19 soft-launch.
-- Speaker bios, abstracts, headshots, and logos: pending partner deliverables (target 2026-05-15).
-- GitHub Pages: workflow file present; enable on the repo settings page on 2026-05-19.
+- **[2026-07-19 update:** Co-organizer **Ayesha Choudhary** (IEEE ITSS Board of Governors, JNU) added to the Organizers section; footer corrected to "organized independently by Kangwon Lee, coordinated with the ITSC 2026 organizing committee" (pushed `2852d64`, verified live). HighTec presenter changed **Mario Cupelli -> Dániel Szűcs** (Mario cannot travel in September); Szűcs's title/abstract/bio/headshot are pending, so his speaker card and the under-construction banner stay up until they land. KW registered for ITSC 2026. Running status + scored TODO: `../pub-root/pub-plan/26-09-ITSC-Workshop/TODO.md`.]
+- **[2026-06-29 update:** partner check-in email **SENT 2026-06-29** asking all three (Solid Sands / HighTec / 2getthere) to review the live site; **partner updates due 2026-07-14**. **Mario/HighTec abstract+bio still pending** on the live page (banner stays up until those land). Acceptance of the DEF CON CHV talk was shared with partners as encouragement in the same email. Evidence: `../pub-root/pub-plan/26-09-ITSC-Workshop/26-06-29-1532-email-partners-checkin.txt` (committed `ed9325c`).]
+- **2026-06-09 sweep:** ITSC 2026 (Naples, Sep 15–18) confirmed; KL's LightPath LBR
+  poster **ACCEPTED** (separate from this workshop — see
+  `../pub-root/pub-plan/26-09-Light-Path/`). Workshop site state below is unchanged
+  since 2026-06-06; under-construction banner still up pending partner deliverables.
+
+### Earlier status (2026-06-06)
+
+- Repository created 2026-05-06; **publicly launched 2026-05-19** (commit `4344fdf`).
+- GitHub Pages is **LIVE** at the URL above (verified loading 2026-06-06), currently showing an
+  intentional **partner-preview "under construction" banner** (restored in `674909b`) while speaker
+  materials are assembled — schedule, speaker bios, and panel framework are already populated.
+- Remaining: lift the under-construction banner once partner deliverables (bios/abstracts/headshots/
+  logos) are final. Yang Xiao (2getthere) display-name preference already honored (`e9abb67`).
+- Scratch: `del_this_reg.txt` (ITSC registration-portal capture) contains personal portal info — now gitignored; do not commit or publish.
 
 ## Conventions
 
